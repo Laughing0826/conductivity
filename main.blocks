@@ -1,0 +1,7 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="DcSCTYTTZ(ltw*^sP`5Z" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="IZL7_si_$mUC%h3xMmC7"><field name="LEDS">`
+        . . # # . 
+        . # . . # 
+        . # . . . 
+        . # . . # 
+        . . # # .
+        `</field></block></statement></block><block type="device_forever" id="P[1alOk6q_-y.{4)#/iN" x="267" y="12"><statement name="HANDLER"><block type="controls_if" id="BK6][75lziljR5E5AtW`"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="device_pin_is_pressed" id="|$rb4}O[1mHRA$6H!|vS"><field name="NAME">TouchPin.P0</field></block></value><statement name="DO0"><block type="basic_show_icon" id="U_=xH%TQAT1]zpM`AvTE"><field name="i">IconNames.Yes</field></block></statement><statement name="ELSE"><block type="basic_show_icon" id="=ZB}GUG4Q3DTg]_95D_F"><field name="i">IconNames.No</field><next><block type="device_pause" id="0,LJ@3n}[RK2R1~6N;$n"><value name="pause"><shadow type="timePicker" id="uPZwC=.$vcS3@R*li1j`"><field name="ms">500</field></shadow></value></block></next></block></statement></block></statement></block></xml>
